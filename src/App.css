@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
   background-color: #fff;
@@ -11,9 +11,9 @@ nav {
 nav > div {
   display: flex;
   align-items: center;
-  gap: 2rem
+  gap: 2rem;
 }
 
-a{
+a {
   text-decoration: none;
 }
