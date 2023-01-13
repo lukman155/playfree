@@ -14,10 +14,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
+  background-color: #000;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #4dffff;
   text-shadow: 0 0 5px #4dffff;
 }
@@ -28,7 +30,6 @@ button {
   box-shadow: 0 0 10px #4dffff;
   border: none;
   font-size: 2rem;
-  
 }
 
 code {
