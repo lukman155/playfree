@@ -20,10 +20,19 @@ const getGameSuccess = (games) => ({
   })),
 });
 
+const options = {
+  method: 'GET',
+  url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
+  headers: {
+    'X-RapidAPI-Key': '8ae90c822bmsh4de3bb92bbbdda1p145969jsna0a3caea0af3',
+    'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com',
+  },
+};
+
 export const getGames = createAsyncThunk(
   GET_GAMES,
   async (_, thunk) => {
-    const response = await axios.get('https://www.freetogame.com/api/games');
+    const response = await axios.request(options);
     thunk.dispatch(getGameSuccess(response.data));
   },
 );
