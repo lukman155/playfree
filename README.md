@@ -23,13 +23,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Traveller's Hub <a name="about-project"></a>
+# 📖 PlayFree <a name="about-project"></a>
 
-> The website models a space website that fetches data from real live data from spaceX and displays it on the UI. Missions and Reserve Rockets can be joined and reserved respectively, and are displayed in My profile page.
+> The website models a game library website that fetches data from real live data from a catalogue of free to play games and displays it on the UI.
  It is an MVP version that allows users to:
-- Reserve rocket.
-- Join mission.
-- Update/view the reservations and mission in My profile page.
+- View List of games
+- Access link to download games
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,9 +54,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Rocket Reservation/Cancellation**
-- **Join/Leave mission**
-- **View the reservation and missions in the Profile page**
+- **View list of games**
+- **View details of games**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Click Here](https://space-travellers-hub-six.vercel.app/)
+> [Playfree Live Demo](https://playfree-six.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +91,7 @@
 
 Clone this repository to your desired folder:
 
-- `git clone https://github.com/lukman155/space-travellers-hub.git`
+- `git clone https://github.com/lukman155/playfree.git`
 
 ### Install
 
@@ -133,12 +131,6 @@ Example command:
 - Twitter: [@Luk, A man](https://twitter.com/lukmanabdulka18)
 - LinkedIn: [Lukman Abdulkarim](https://www.linkedin.com/in/lukmanbaba/)
 
-👤 **Asha S Vijayan**
-
-- GitHub: [@asharanjith](https://github.com/asharanjith)
-- Twitter: [@asha_cep](https://twitter.com/asha_cep)
-- LinkedIn: [asha-vijayan](www.linkedin.com/in/ashavijayan)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -176,6 +168,8 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
  I would like to thank the Microverse team for their great support!
+ Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
