@@ -30,6 +30,10 @@
 - View List of games
 - Access link to download games
 
+# Video Link
+
+[Video link](https://www.loom.com/share/f1adc2edc7ef4564a59bb62f2a27fe8b)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML/CSS
