@@ -1,0 +1,39 @@
+section {
+  margin: 0 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #003d3d;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.main-pagination {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  overflow: hidden;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style: none;
+  gap: 1rem;
+  cursor: pointer;
+  color: #4dffff;
+}

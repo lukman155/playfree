@@ -3,8 +3,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px #4dffff;
   font-size: 2rem;
 }
 
@@ -16,4 +15,39 @@ nav > div {
 
 a {
   text-decoration: none;
+  color: #4dffff;
+}
+
+nav > a {
+  color: #4dffff;
+}
+
+.row-detail {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.row-detail > a {
+  color: #4dffff;
+  text-decoration: none;
+  padding: 2rem;
+  border: 2px solid #4dffff;
+}
+
+.neon {
+  animation: neon 1s ease-in-out infinite;
+  filter: brightness(150%) contrast(150%);
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f17, 0 0 70px #f17, 0 0 80px #f17, 0 0 100px #f17;
+  }
+
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f17, 0 0 35px #f17, 0 0 40px #f17, 0 0 50px #f17;
+  }
 }
