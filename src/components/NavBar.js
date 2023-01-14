@@ -5,9 +5,6 @@ const NavBar = () => (
     <Link to="/">
       PLAYFREE
     </Link>
-    <div>
-      <button type="button">Categories</button>
-    </div>
   </nav>
 );
 

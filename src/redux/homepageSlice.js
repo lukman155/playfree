@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const games = [];
@@ -6,6 +5,7 @@ const games = [];
 const GET_GAMES = 'PLAYFREE/REDUX/GET_GAMES';
 const GET_GAMES_SUCCESS = 'PLAYFREE/REDUX/GET_GAMES_SUCCESS';
 const GET_GAMES_FAIL = 'PLAYFREE/REDUX/GET_GAMES_FAIL';
+const GAME_URL = 'https://free-to-play-games-database.p.rapidapi.com/api/games';
 
 const getGameSuccess = (games) => ({
   type: GET_GAMES_SUCCESS,
@@ -22,7 +22,6 @@ const getGameSuccess = (games) => ({
 
 const options = {
   method: 'GET',
-  url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
   headers: {
     'X-RapidAPI-Key': '8ae90c822bmsh4de3bb92bbbdda1p145969jsna0a3caea0af3',
     'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com',
@@ -32,8 +31,9 @@ const options = {
 export const getGames = createAsyncThunk(
   GET_GAMES,
   async (_, thunk) => {
-    const response = await axios.request(options);
-    thunk.dispatch(getGameSuccess(response.data));
+    const response = await fetch(GAME_URL, options);
+    const data = await response.json();
+    thunk.dispatch(getGameSuccess(data));
   },
 );
 

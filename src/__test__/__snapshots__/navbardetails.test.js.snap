@@ -9,7 +9,7 @@ Object {
         <a
           href="/"
         >
-          PLAYFREE
+          Back
         </a>
       </nav>
     </div>
@@ -19,7 +19,7 @@ Object {
       <a
         href="/"
       >
-        PLAYFREE
+        Back
       </a>
     </nav>
   </div>,
